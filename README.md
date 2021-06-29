@@ -1,3 +1,7 @@
+# Build OnlyOffice Debian package without connection limits
+
+Thanks to v6.3.1.37-btactic tag you can build a Debian package which features no connection limits. Learn how on: [README-BUILD-DEBIAN-PACKAGE-NO-LIMITS.md](README-BUILD-DEBIAN-PACKAGE-NO-LIMITS.md).
+
 # build_tools
 
 ## Overview
