@@ -28,7 +28,7 @@ git clone \
 cd /build_tools
 mkdir out
 docker build --tag onlyoffice-document-editors-builder .
-docker run -v $(pwd)/out:/build_tools/out onlyoffice-document-editors-builder /bin/bash -c 'cd tools/linux && python3 ./automate.py --branch=v6.3.1.37-btactic --module="server"'
+docker run -v $(pwd)/out:/build_tools/out onlyoffice-document-editors-builder /bin/bash -c 'cd tools/linux && python3 ./automate.py --branch=tags/v6.3.1.37-btactic'
 ```
 
 ## Package is built
